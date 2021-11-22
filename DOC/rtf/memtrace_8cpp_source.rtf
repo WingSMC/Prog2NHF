@@ -1,0 +1,652 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+memtrace.cpp\par \pard\plain 
+{\tc\tcl2 \v F:/Programming/Uni/Prog2/NHF/NHF2/memtrace.cpp}
+{\xe \v F:/Programming/Uni/Prog2/NHF/NHF2/memtrace.cpp}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     1 {\cf20 /*********************************}\par
+    2 {\cf20 Memoriaszivargas-detektor}\par
+    3 {\cf20 Keszitette: Peregi Tamas, BME IIT, 2011}\par
+    4 {\cf20             petamas@iit.bme.hu}\par
+    5 {\cf20 Kanari:     Szeberenyi Imre, 2013.}\par
+    6 {\cf20 VS 2012:    Szeberényi Imre, 2015.,}\par
+    7 {\cf20 mem_dump:   2016.}\par
+    8 {\cf20 meset felszabaditaskor: 2018.}\par
+    9 {\cf20 typo:       2019.}\par
+   10 {\cf20 singleton:  2019.}\par
+   11 {\cf20 *********************************/}\par
+   12 \par
+   13 {\cf20 /*definialni kell, ha nem paracssorbol allitjuk be (-DMEMTRACE) */}\par
+   14 {\cf20 /*#define MEMTRACE */}\par
+   15 \par
+   16 {\cf21 #ifdef _MSC_VER}\par
+   17 {\cf21     #define _CRT_SECURE_NO_WARNINGS 1}\par
+   18 {\cf21 #endif}\par
+   19 \par
+   20 {\cf21 #include <stdio.h>}\par
+   21 {\cf21 #include <stdlib.h>}\par
+   22 {\cf21 #include <string.h>}\par
+   23 {\cf21 #include <time.h>}\par
+   24 {\cf21 #include <ctype.h>}\par
+   25 \par
+   26 {\cf21 #define MEMTRACE 1}\par
+   27 {\cf21 #ifdef MEMTRACE}\par
+   28 {\cf21 #define FROM_MEMTRACE_CPP}\par
+   29 {\cf21 #include "memtrace.h"}\par
+   30 \par
+   31 {\cf21 #define FMALLOC 0}\par
+   32 {\cf21 #define FCALLOC 1}\par
+   33 {\cf21 #define FREALLOC 2}\par
+   34 {\cf21 #define FFREE 3}\par
+   35 {\cf21 #define FNEW 4}\par
+   36 {\cf21 #define FDELETE 5}\par
+   37 {\cf21 #define FNEWARR 6}\par
+   38 {\cf21 #define FDELETEARR 7}\par
+   39 {\cf21 #define COMP(a,d) (((a)<=3 && (d)<=3) || ((d)==(a)+1))}\par
+   40 {\cf21 #define PU(p)   ((char*)p+CANARY_LEN)   // mem pointerbol user poi}\par
+   41 {\cf21 #define P(pu)   ((char*)pu-CANARY_LEN)  // user pointerbol mem poi}\par
+   42 {\cf21 #define XSTR(s) STR(s)}\par
+   43 {\cf21 #define STR(s)  #s}\par
+   44 {\cf20 /*******************************************************************/}\par
+   45 {\cf20 /* Segedfuggvenyek es egyebek */}\par
+   46 {\cf20 /*******************************************************************/}\par
+   47 START_NAMESPACE\par
+   48     {\cf17 static} FILE *fperror;\par
+   49 {\cf21     #ifdef MEMTRACE_TO_MEMORY}\par
+   50         {\cf17 static} {\cf17 const} {\cf18 unsigned} {\cf18 int} CANARY_LEN = 64;\par
+   51 {\cf21     #else}\par
+   52         {\cf17 static} {\cf17 const} {\cf18 unsigned} {\cf18 int} CANARY_LEN = 0;\par
+   53 {\cf21     #endif}\par
+   54     {\cf17 static} {\cf17 const} {\cf18 unsigned} {\cf18 char} canary_byte1 = {\cf23 'k'};\par
+   55     {\cf17 static} {\cf17 const} {\cf18 unsigned} {\cf18 char} canary_byte2 = {\cf23 'K'};\par
+   56     {\cf17 static} {\cf18 unsigned} {\cf18 char} random_byte;\par
+   57 \par
+   58     {\cf17 typedef} {\cf17 enum} \{FALSE,TRUE\} BOOL;\par
+   59 \par
+   60     {\cf17 static} {\cf17 const} {\cf18 char} * pretty[] = \{{\cf22 "malloc("}, {\cf22 "calloc("}, {\cf22 "realloc("}, {\cf22 "free("},\par
+   61                                         {\cf22 "new"}, {\cf22 "delete"}, {\cf22 "new[]"}, {\cf22 "delete[]"}\};\par
+   62 \par
+   63     {\cf17 static} {\cf17 const} {\cf18 char} * basename({\cf17 const} {\cf18 char} * s) \{\par
+   64         {\cf17 const} {\cf18 char} *s1,*s2;\par
+   65         s1 = strrchr(s,{\cf23 '/'});\par
+   66         {\cf19 if}(s1==NULL) s1 = s; {\cf19 else} s1++;\par
+   67         s2 = strrchr(s1, {\cf23 '\\\\'});\par
+   68         {\cf19 if}(s2==NULL) s2 = s1; {\cf19 else} s2++;\par
+   69         {\cf19 return} s2;\par
+   70     \}\par
+   71 \par
+   72     {\cf17 static} {\cf18 char} *StrCpy({\cf18 char} ** to, {\cf17 const} {\cf18 char} * from) \{\par
+   73             {\cf19 if}(from == NULL) \{\par
+   74             *to = NULL;\par
+   75             \} {\cf19 else} \{\par
+   76                     *to = ({\cf18 char}*)malloc(strlen(from)+1);\par
+   77                     {\cf19 if}(*to) strcpy(*to, from);\par
+   78             \}\par
+   79             {\cf19 return} *to;\par
+   80     \}\par
+   81 \par
+   82     {\cf17 static} {\cf18 void} *canary_malloc({\cf18 size_t} size, {\cf18 unsigned} {\cf18 char} data) \{\par
+   83         {\cf18 char} *p = ({\cf18 char} *)malloc(size+2*CANARY_LEN);\par
+   84         {\cf19 if} (p) \{\par
+   85             memset(p, canary_byte1, CANARY_LEN);\par
+   86             memset(p+CANARY_LEN, data, size);\par
+   87             memset(p+CANARY_LEN+size, canary_byte2, CANARY_LEN);\par
+   88         \}\par
+   89         {\cf19 return} p;\par
+   90     \}\par
+   91 \par
+   92     {\cf17 static} {\cf18 int} chk_canary({\cf18 void} *p, {\cf18 size_t} size) \{\par
+   93         {\cf18 unsigned} {\cf18 char} *pc = ({\cf18 unsigned} {\cf18 char}*)p;\par
+   94         {\cf18 unsigned} {\cf18 int} i;\par
+   95         {\cf19 for} (i = 0; i < CANARY_LEN; i++)\par
+   96             {\cf19 if} (pc[i] != canary_byte1)\par
+   97                 {\cf19 return} -1;\par
+   98         pc += CANARY_LEN+size;\par
+   99         {\cf19 for} (i = 0; i < CANARY_LEN; i++)\par
+  100             {\cf19 if} (pc[i] != canary_byte2)\par
+  101                 {\cf19 return} 1;\par
+  102         {\cf19 return} 0;\par
+  103     \}\par
+  104 \par
+  105     {\cf17 typedef} {\cf17 struct }\{\par
+  106         {\cf18 int} f;  {\cf20 /* allocator func */}\par
+  107         {\cf18 int} line;\par
+  108         {\cf18 char} * par_txt;\par
+  109         {\cf18 char} * file;\par
+  110     \} call_t;\par
+  111 \par
+  112     {\cf17 static} call_t pack({\cf18 int} f, {\cf17 const} {\cf18 char} * par_txt, {\cf18 int} line, {\cf17 const} {\cf18 char} * file) \{\par
+  113         call_t ret;\par
+  114         ret.f = f;\par
+  115         ret.line = line;\par
+  116         StrCpy(&ret.par_txt, par_txt);\par
+  117         StrCpy(&ret.file, file);\par
+  118         {\cf19 return} ret;\par
+  119     \}\par
+  120 \par
+  121     {\cf17 static} {\cf18 void} print_call({\cf17 const} {\cf18 char} * msg, call_t call) \{\par
+  122         {\cf19 if}(msg) fprintf(fperror, {\cf22 "%s"}, msg);\par
+  123         fprintf(fperror, {\cf22 "%s"}, pretty[call.f]);\par
+  124         fprintf(fperror, {\cf22 "%s"}, call.par_txt ? call.par_txt : {\cf22 "?"});\par
+  125         {\cf19 if} (call.f <= 3) fprintf(fperror, {\cf22 ")"});\par
+  126         fprintf(fperror,{\cf22 " @ %s:"}, call.file ? basename(call.file) : {\cf22 "?"});\par
+  127         fprintf(fperror,{\cf22 "%d\\n"},call.line ? call.line : 0);\par
+  128     \}\par
+  129 \par
+  130     {\cf20 /* memoriateruletet dump */}\par
+  131     {\cf17 static} {\cf18 void} dump_memory({\cf18 void} {\cf17 const} *mem, {\cf18 size_t} size, {\cf18 size_t} can_len, FILE* fp) \{\par
+  132         {\cf18 unsigned} {\cf18 char} {\cf17 const} *m=({\cf18 unsigned} {\cf18 char} {\cf17 const} *) mem;\par
+  133         {\cf18 unsigned} {\cf18 int} s, o;\par
+  134 \par
+  135         {\cf19 if} (can_len > 0)\par
+  136             fprintf(fp, {\cf22 "Dump (addr: %p kanari hossz: %d):\\n"}, m+can_len, ({\cf18 int})can_len);\par
+  137         {\cf19 else}\par
+  138             fprintf(fp, {\cf22 "Dump: (addr: %p) \\n"}, m);\par
+  139         size += 2*can_len;\par
+  140         {\cf19 for} (s = 0; s < (size+15)/16; s++) \{\par
+  141             fprintf(fp, {\cf22 "%04x:%c "}, s*16, s*16 < can_len || s*16 >= size-can_len ? {\cf23 ' '} : {\cf23 '*'});\par
+  142             {\cf19 for} (o = 0; o < 16; o++) \{\par
+  143                 {\cf19 if} (o == 8) fprintf(fp, {\cf22 " "});\par
+  144                 {\cf19 if} (s*16+o < size)\par
+  145                     fprintf(fp, {\cf22 "%02x "}, m[s*16+o]);\par
+  146                 {\cf19 else}\par
+  147                     fprintf(fp, {\cf22 "   "});\par
+  148             \}\par
+  149             fprintf(fp, {\cf22 " "});\par
+  150             {\cf19 for} (o = 0; o < 16; o++) \{\par
+  151                 {\cf19 if} (s*16+o < size)\par
+  152                     fprintf(fp, {\cf22 "%c"}, isprint(m[s*16+o]) ? m[s*16+o] : {\cf23 '.'});\par
+  153                 {\cf19 else}\par
+  154                     fprintf(fp, {\cf22 " "});\par
+  155             \}\par
+  156             fprintf(fp, {\cf22 "\\n"});\par
+  157         \}\par
+  158     \}\par
+  159 \par
+  160     {\cf18 void} mem_dump({\cf18 void} {\cf17 const} *mem, {\cf18 size_t} size, FILE* fp) \{\par
+  161         dump_memory(mem, size, 0, fp);\par
+  162     \}\par
+  163 \par
+  164     {\cf17 static} BOOL dying;\par
+  165 \par
+  166     {\cf17 static} {\cf18 void} die({\cf17 const} {\cf18 char} * msg, {\cf18 void} * p, {\cf18 size_t} size, call_t * a, call_t * d) \{\par
+  167 {\cf21         #ifdef MEMTRACE_ERRFILE}\par
+  168             fperror = fopen(XSTR(MEMTRACE_ERRFILE), {\cf22 "w"});\par
+  169 {\cf21         #endif}\par
+  170         fprintf(fperror,{\cf22 "%s\\n"},msg);\par
+  171         {\cf19 if} (p) \{\par
+  172             fprintf(fperror, {\cf22 "\\tPointer:\\t%p"}, PU(p));\par
+  173             {\cf19 if} (size) fprintf(fperror,{\cf22 " (%d byte)"}, ({\cf18 int})size);\par
+  174             fprintf(fperror,{\cf22 "\\n"});\par
+  175         \}\par
+  176         {\cf19 if} (a) print_call({\cf22 "\\tFoglalas:\\t"}, *a);\par
+  177         {\cf19 if} (d) print_call({\cf22 "\\tFelszabaditas:\\t"}, *d);\par
+  178                 {\cf19 if} (p) dump_memory(p, size, CANARY_LEN, fperror);\par
+  179 \par
+  180         dying = TRUE;\par
+  181         exit(120);\par
+  182     \}\par
+  183 \par
+  184     {\cf17 static} {\cf18 void} initialize();\par
+  185 END_NAMESPACE\par
+  186 \par
+  187 {\cf20 /*******************************************************************/}\par
+  188 {\cf20 /* MEMTRACE_TO_MEMORY */}\par
+  189 {\cf20 /*******************************************************************/}\par
+  190 \par
+  191 {\cf21 #ifdef MEMTRACE_TO_MEMORY}\par
+  192 START_NAMESPACE\par
+  193     {\cf17 typedef} {\cf17 struct }_registry_item \{\par
+  194         {\cf18 void} * p;    {\cf20 /* mem pointer*/}\par
+  195         {\cf18 size_t} size; {\cf20 /* size*/}\par
+  196         call_t call;\par
+  197         {\cf17 struct }_registry_item * next;\par
+  198     \} registry_item;\par
+  199 \par
+  200     {\cf17 static} registry_item registry; {\cf20 /*sentinel*/}\par
+  201 \par
+  202     {\cf17 static} {\cf18 void} print_registry_item(registry_item * p) \{\par
+  203         {\cf19 if} (p) \{\par
+  204             print_registry_item(p->next);\par
+  205             fprintf(fperror, {\cf22 "\\t%p%5d byte "},p->p, ({\cf18 int})p->size);\par
+  206             print_call(NULL, p->call);\par
+  207             {\cf19 if}(p->call.par_txt) free(p->call.par_txt);\par
+  208             {\cf19 if}(p->call.file) free(p->call.file);\par
+  209             free(p);\par
+  210         \}\par
+  211     \}\par
+  212 \par
+  213     {\cf20 /* ha nincs hiba, akkor 0-val tér vissza */}\par
+  214     {\cf18 int} mem_check({\cf18 void}) \{\par
+  215         initialize();\par
+  216         {\cf19 if}(dying) {\cf19 return}  2;    {\cf20 /* címzési hiba */}\par
+  217 \par
+  218         {\cf19 if}(registry.next) \{\par
+  219             {\cf20 /*szivarog*/}\par
+  220 {\cf21             #ifdef MEMTRACE_ERRFILE}\par
+  221                 fperror = fopen(XSTR(MEMTRACE_ERRFILE), {\cf22 "w"});\par
+  222 {\cf21             #endif}\par
+  223             fprintf(fperror, {\cf22 "Szivargas:\\n"});\par
+  224             print_registry_item(registry.next);\par
+  225             registry.next = NULL;\par
+  226             {\cf19 return} 1;           {\cf20 /* memória fogyás */}\par
+  227         \}\par
+  228         {\cf19 return} 0;\par
+  229     \}\par
+  230 END_NAMESPACE\par
+  231 {\cf21 #endif}{\cf20 /*MEMTRACE_TO_MEMORY*/}{\cf21 }\par
+  232 \par
+  233 {\cf20 /*******************************************************************/}\par
+  234 {\cf20 /* MEMTRACE_TO_FILE */}\par
+  235 {\cf20 /*******************************************************************/}\par
+  236 \par
+  237 {\cf21 #ifdef MEMTRACE_TO_FILE}\par
+  238 START_NAMESPACE\par
+  239     {\cf17 static} FILE * trace_file;\par
+  240 END_NAMESPACE\par
+  241 {\cf21 #endif}\par
+  242 \par
+  243 {\cf20 /*******************************************************************/}\par
+  244 {\cf20 /* register/unregister */}\par
+  245 {\cf20 /*******************************************************************/}\par
+  246 \par
+  247 START_NAMESPACE\par
+  248     {\cf17 static} {\cf18 int} allocated_blks;\par
+  249 \par
+  250     {\cf18 int} allocated_blocks() \{ {\cf19 return} allocated_blks; \}\par
+  251 \par
+  252     {\cf17 static} BOOL register_memory({\cf18 void} * p, {\cf18 size_t} size, call_t call) \{\par
+  253         initialize();\par
+  254         allocated_blks++;\par
+  255 {\cf21         #ifdef MEMTRACE_TO_FILE}\par
+  256             fprintf(trace_file, {\cf22 "%p\\t%d\\t%s%s"}, PU(p), ({\cf18 int})size, pretty[call.f], call.par_txt ? call.par_txt : {\cf22 "?"});\par
+  257             {\cf19 if} (call.f <= 3) fprintf(trace_file, {\cf22 ")"});\par
+  258             fprintf(trace_file, {\cf22 "\\t%d\\t%s\\n"}, call.line, call.file ? call.file : {\cf22 "?"});\par
+  259             fflush(trace_file);\par
+  260 {\cf21         #endif}\par
+  261 {\cf21         #ifdef MEMTRACE_TO_MEMORY}\par
+  262         \{{\cf20 /*C-blokk*/}\par
+  263             registry_item * n = (registry_item*)malloc({\cf17 sizeof}(registry_item));\par
+  264             {\cf19 if}(n==NULL) {\cf19 return} FALSE;\par
+  265             n->p = p;\par
+  266             n->size = size;\par
+  267             n->call = call;\par
+  268             n->next = registry.next;\par
+  269             registry.next = n;\par
+  270         \}{\cf20 /*C-blokk*/}\par
+  271 {\cf21         #endif}\par
+  272 \par
+  273         {\cf19 return} TRUE;\par
+  274     \}\par
+  275 \par
+  276 {\cf21     #ifdef MEMTRACE_TO_MEMORY}\par
+  277     {\cf17 static} registry_item *find_registry_item({\cf18 void} * p) \{\par
+  278                 registry_item *n = &registry;\par
+  279                 {\cf19 for}(; n->next && n->next->p != p ; n=n->next);\par
+  280                 {\cf19 return} n;\par
+  281         \}\par
+  282 {\cf21         #endif}\par
+  283 \par
+  284     {\cf17 static} {\cf18 void} unregister_memory({\cf18 void} * p, call_t call) \{\par
+  285         initialize();\par
+  286 {\cf21         #ifdef MEMTRACE_TO_FILE}\par
+  287                         fprintf(trace_file, {\cf22 "%p\\t%d\\t%s%s"}, PU(p), -1, pretty[call.f], call.par_txt ? call.par_txt : {\cf22 "?"});\par
+  288                         {\cf19 if} (call.f <= 3) fprintf(trace_file, {\cf22 ")"});\par
+  289             fprintf(trace_file,{\cf22 "\\t%d\\t%s\\n"},call.line, call.file ? call.file : {\cf22 "?"});\par
+  290             fflush(trace_file);\par
+  291 {\cf21         #endif}\par
+  292 {\cf21         #ifdef MEMTRACE_TO_MEMORY}\par
+  293         \{ {\cf20 /*C-blokk*/}\par
+  294             registry_item * n = find_registry_item(p);\par
+  295             {\cf19 if}(n->next) \{\par
+  296                 allocated_blks--;\par
+  297                 registry_item * r = n->next;\par
+  298                 n->next = r->next;\par
+  299                 {\cf19 if}(COMP(r->call.f,call.f)) \{\par
+  300                     {\cf18 int} chk = chk_canary(r->p, r->size);\par
+  301                     {\cf19 if} (chk < 0)\par
+  302                         die({\cf22 "Blokk elott serult a memoria:"}, r->p,r->size,&r->call,&call);\par
+  303                     {\cf19 if} (chk > 0)\par
+  304                         die({\cf22 "Blokk utan serult a memoria"}, r->p,r->size,&r->call,&call);\par
+  305                     {\cf20 /*rendben van minden*/}\par
+  306                     {\cf19 if}(call.par_txt) free(call.par_txt);\par
+  307                     {\cf19 if}(r->call.par_txt) free(r->call.par_txt);\par
+  308                     {\cf19 if}(call.file) free(call.file);\par
+  309                     {\cf19 if}(r->call.file) free(r->call.file);\par
+  310                     memset(PU(r->p), {\cf23 'f'}, r->size);\par
+  311                     PU(r->p)[r->size-1] = 0;\par
+  312                     free(r);\par
+  313                 \} {\cf19 else} \{\par
+  314                     {\cf20 /*hibas felszabaditas*/}\par
+  315                     die({\cf22 "Hibas felszabaditas:"},r->p,r->size,&r->call,&call);\par
+  316                 \}\par
+  317             \} {\cf19 else} \{\par
+  318                 die({\cf22 "Nem letezo, vagy mar felszabaditott adat felszabaditasa:"}, p, 0,NULL,&call);\par
+  319             \}\par
+  320         \} {\cf20 /*C-blokk*/}\par
+  321 {\cf21         #endif}\par
+  322     \}\par
+  323 END_NAMESPACE\par
+  324 \par
+  325 {\cf20 /*******************************************************************/}\par
+  326 {\cf20 /* C-stílusú memóriakezelés */}\par
+  327 {\cf20 /*******************************************************************/}\par
+  328 \par
+  329 {\cf21 #ifdef MEMTRACE_C}\par
+  330 START_NAMESPACE\par
+  331     {\cf18 void} * traced_malloc({\cf18 size_t} size, {\cf17 const} {\cf18 char} * par_txt, {\cf18 int} line, {\cf17 const} {\cf18 char} * file) \{\par
+  332         {\cf18 void} * p;\par
+  333         initialize();\par
+  334         p = canary_malloc(size, random_byte);\par
+  335         {\cf19 if} (p) \{\par
+  336             {\cf19 if}(!register_memory(p,size,pack(FMALLOC,par_txt,line,file))) \{\par
+  337                 free(p);\par
+  338                 {\cf19 return} NULL;\par
+  339             \}\par
+  340             {\cf19 return} PU(p);\par
+  341         \}\par
+  342         {\cf19 return} NULL;\par
+  343     \}\par
+  344 \par
+  345     {\cf18 void} * traced_calloc({\cf18 size_t} count, {\cf18 size_t} size, {\cf17 const} {\cf18 char} * par_txt, {\cf18 int} line, {\cf17 const} {\cf18 char} * file) \{\par
+  346         {\cf18 void} * p;\par
+  347         initialize();\par
+  348                 size *= count;\par
+  349                 p = canary_malloc(size, 0);\par
+  350         {\cf19 if}(p) \{\par
+  351             {\cf19 if}(!register_memory(p,size,pack(FCALLOC,par_txt,line,file))) \{\par
+  352                 free(p);\par
+  353                 {\cf19 return} NULL;\par
+  354             \}\par
+  355             {\cf19 return} PU(p);\par
+  356         \}\par
+  357         {\cf19 return} NULL;\par
+  358     \}\par
+  359 \par
+  360     {\cf18 void} traced_free({\cf18 void} * pu, {\cf17 const} {\cf18 char} * par_txt, {\cf18 int} line, {\cf17 const} {\cf18 char} * file) \{\par
+  361         initialize();\par
+  362         {\cf19 if}(pu) \{\par
+  363             unregister_memory(P(pu), pack(FFREE,par_txt,line,file));\par
+  364             free(P(pu));\par
+  365         \} {\cf19 else} \{\par
+  366             {\cf20 /*free(NULL) eset*/}\par
+  367 {\cf21             #ifdef MEMTRACE_TO_FILE}\par
+  368                 fprintf(trace_file,{\cf22 "%s\\t%d\\t%10s\\t"},{\cf22 "NULL"},-1,pretty[FFREE]);\par
+  369                 fprintf(trace_file,{\cf22 "%d\\t%s\\n"},line,file ? file : {\cf22 "?"});\par
+  370                 fflush(trace_file);\par
+  371 {\cf21             #endif}\par
+  372 {\cf21             #ifndef ALLOW_FREE_NULL}\par
+  373             \{{\cf20 /*C-blokk*/}\par
+  374                 call_t call;\par
+  375                 call = pack(FFREE,par_txt,line,file);\par
+  376                 die({\cf22 "free(NULL) hivasa:"},NULL,0,NULL,&call);\par
+  377             \}{\cf20 /*C-blokk*/}\par
+  378 {\cf21             #endif}\par
+  379         \}\par
+  380     \}\par
+  381 \par
+  382     {\cf18 void} * traced_realloc({\cf18 void} * old, {\cf18 size_t} size, {\cf17 const} {\cf18 char} * par_txt, {\cf18 int} line, {\cf17 const} {\cf18 char} * file) \{\par
+  383         {\cf18 void} * p;\par
+  384         {\cf18 size_t} oldsize = 0;\par
+  385         registry_item * n;\par
+  386         initialize();\par
+  387 \par
+  388 {\cf21         #ifdef MEMTRACE_TO_MEMORY}\par
+  389                 n = find_registry_item(P(old));\par
+  390                 {\cf19 if} (n) oldsize = n->next->size;\par
+  391             p = canary_malloc(size, random_byte);\par
+  392 {\cf21             #else}\par
+  393                 p = realloc(old, size);\par
+  394 {\cf21             #endif}\par
+  395         {\cf19 if} (p) \{\par
+  396             {\cf20 /*Ha sikerult a foglalas, regisztraljuk*/}\par
+  397             register_memory(p,size,pack(FREALLOC, par_txt, line,file));\par
+  398                     {\cf19 if} (old) \{\par
+  399 {\cf21                 #ifdef MEMTRACE_TO_MEMORY}\par
+  400                     {\cf18 int} cpsize = 2*CANARY_LEN;\par
+  401                             {\cf19 if} (oldsize < size) cpsize += oldsize;\par
+  402                             {\cf19 else} cpsize += size;\par
+  403                             memcpy(p, P(old), cpsize);\par
+  404 {\cf21                 #endif}\par
+  405                         unregister_memory(P(old), pack(FREALLOC, par_txt, line, file));\par
+  406 {\cf21                 #ifdef MEMTRACE_TO_MEMORY}\par
+  407                             free P(old);\par
+  408 {\cf21                         #endif}\par
+  409                     \}\par
+  410                     {\cf19 return} PU(p);\par
+  411         \} {\cf19 else} \{\par
+  412                 {\cf19 return} NULL;\par
+  413             \}\par
+  414     \}\par
+  415 \par
+  416 END_NAMESPACE\par
+  417 {\cf21 #endif}{\cf20 /*MEMTRACE_C*/}{\cf21 }\par
+  418 \par
+  419 {\cf20 /*******************************************************************/}\par
+  420 {\cf20 /* C++-stílusú memóriakezelés */}\par
+  421 {\cf20 /*******************************************************************/}\par
+  422 \par
+  423 {\cf21 #ifdef MEMTRACE_CPP}\par
+  424 START_NAMESPACE\par
+  425     std::new_handler _new_handler;\par
+  426 \par
+  427     {\cf18 void} _set_new_handler(std::new_handler h) \{\par
+  428         initialize();\par
+  429         _new_handler = h;\par
+  430     \}\par
+  431 \par
+  432     {\cf17 static} call_t delete_call;\par
+  433     {\cf17 static} BOOL delete_called;\par
+  434 \par
+  435     {\cf18 void} set_delete_call({\cf18 int} line, {\cf17 const} {\cf18 char} * file) \{\par
+  436         initialize();\par
+  437         delete_call=pack(0,{\cf22 ""},line,file); {\cf20 /*func értéke lényegtelen, majd felülírjuk*/}\par
+  438         delete_called = TRUE;\par
+  439     \}\par
+  440 \par
+  441     {\cf18 void} * traced_new({\cf18 size_t} size, {\cf18 int} line, {\cf17 const} {\cf18 char} * file, {\cf18 int} func) \{\par
+  442         initialize();\par
+  443         {\cf19 for} (;;) \{\par
+  444             {\cf18 void} * p = canary_malloc(size, random_byte);\par
+  445             {\cf19 if}(p) \{\par
+  446                 register_memory(p,size,pack(func,{\cf22 ""},line,file));\par
+  447                 {\cf19 return} PU(p);\par
+  448             \}\par
+  449 \par
+  450             {\cf19 if} (_new_handler == 0)\par
+  451                 {\cf19 throw} std::bad_alloc();\par
+  452 \par
+  453             _new_handler();\par
+  454         \}\par
+  455     \}\par
+  456 \par
+  457     {\cf18 void} traced_delete({\cf18 void} * pu, {\cf18 int} func) \{\par
+  458         initialize();\par
+  459         {\cf19 if}(pu) \{\par
+  460             {\cf20 /*kiolvasom call-t, ha van*/}\par
+  461             memtrace::call_t call = delete_called ? (delete_call.f=func, delete_call) : pack(func,NULL,0,NULL);\par
+  462             memtrace::unregister_memory(P(pu),call);\par
+  463             free(P(pu));\par
+  464         \}\par
+  465         delete_called=FALSE;\par
+  466     \}\par
+  467 END_NAMESPACE\par
+  468 \par
+  469 {\cf18 void} * {\cf17 operator} {\cf17 new}({\cf18 size_t} size, {\cf18 int} line, {\cf17 const} {\cf18 char} * file) THROW_BADALLOC \{\par
+  470     {\cf19 return} memtrace::traced_new(size,line,file,FNEW);\par
+  471 \}\par
+  472 \par
+  473 {\cf18 void} * {\cf17 operator} {\cf17 new}[]({\cf18 size_t} size, {\cf18 int} line, {\cf17 const} {\cf18 char} * file) THROW_BADALLOC \{\par
+  474     {\cf19 return} memtrace::traced_new(size,line,file,FNEWARR);\par
+  475 \}\par
+  476 \par
+  477 {\cf18 void} * {\cf17 operator} {\cf17 new}({\cf18 size_t} size) THROW_BADALLOC \{\par
+  478     {\cf19 return} memtrace::traced_new(size,0,NULL,FNEW);\par
+  479 \}\par
+  480 \par
+  481 {\cf18 void} * {\cf17 operator} {\cf17 new}[]({\cf18 size_t} size) THROW_BADALLOC \{\par
+  482     {\cf19 return} memtrace::traced_new(size,0,NULL,FNEWARR);\par
+  483 \}\par
+  484 \par
+  485 {\cf18 void} {\cf17 operator} {\cf17 delete}({\cf18 void} * p) THROW_NOTHING \{\par
+  486     memtrace::traced_delete(p,FDELETE);\par
+  487 \}\par
+  488 \par
+  489 {\cf18 void} {\cf17 operator} {\cf17 delete}[]({\cf18 void} * p) THROW_NOTHING \{\par
+  490     memtrace::traced_delete(p,FDELETEARR);\par
+  491 \}\par
+  492 \par
+  493 \par
+  494 {\cf20 /* Visual C++ 2012 miatt kell, mert háklis, hogy nincs megfelelő delete, bár senki sem használja */}\par
+  495 {\cf18 void} {\cf17 operator} {\cf17 delete}({\cf18 void} * p, int, {\cf17 const} {\cf18 char} *) THROW_NOTHING \{\par
+  496     memtrace::traced_delete(p,FDELETE);\par
+  497 \}\par
+  498 \par
+  499 {\cf18 void} {\cf17 operator} {\cf17 delete}[]({\cf18 void} * p, int, {\cf17 const} {\cf18 char} *) THROW_NOTHING \{\par
+  500     memtrace::traced_delete(p,FDELETE);\par
+  501 \}\par
+  502 \par
+  503 {\cf21 #endif}{\cf20 /*MEMTRACE_CPP*/}{\cf21 }\par
+  504 \par
+  505 {\cf20 /*******************************************************************/}\par
+  506 {\cf20 /* initialize */}\par
+  507 {\cf20 /*******************************************************************/}\par
+  508 \par
+  509 START_NAMESPACE\par
+  510     {\cf17 static} {\cf18 void} initialize() \{\par
+  511         {\cf17 static} BOOL first = TRUE;\par
+  512         {\cf19 if}(first) \{\par
+  513             fperror = stderr;\par
+  514             random_byte = ({\cf18 unsigned} char)time(NULL);\par
+  515             first = FALSE;\par
+  516             dying = FALSE;\par
+  517 {\cf21             #ifdef MEMTRACE_TO_MEMORY}\par
+  518                 registry.next = NULL;\par
+  519 {\cf21                 #if !defined(USE_ATEXIT_OBJECT) && defined(MEMTRACE_AUTO)}\par
+  520                     atexit(({\cf18 void}(*)({\cf18 void}))mem_check);\par
+  521 {\cf21                 #endif}\par
+  522 {\cf21             #endif}\par
+  523 {\cf21             #ifdef MEMTRACE_TO_FILE}\par
+  524                 trace_file = fopen({\cf22 "memtrace.dump"},{\cf22 "w"});\par
+  525 {\cf21             #endif}\par
+  526 {\cf21             #ifdef MEMTRACE_CPP}\par
+  527                 _new_handler = NULL;\par
+  528                 delete_called = FALSE;\par
+  529                 delete_call = pack(0,NULL,0,NULL);\par
+  530 {\cf21             #endif}\par
+  531         \}\par
+  532     \}\par
+  533 \par
+  534 END_NAMESPACE\par
+  535 {\cf21 #endif}\par
+}
+}
